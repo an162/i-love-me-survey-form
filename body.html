@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <div class="form_body">
+  <h1 id="title">I love me survey form
+
+    </h1>
+<p id="description">let's shower with self-love</p>
+<h1>&#x1F339;</h1>
+
+<form id="survey-form" action="">
+ <hr>
+<fieldset>
+  <legend>&#x1F33C; lovely info: </legend>
+  <label for="name" id="name-label">my beatiful name: <input name="name" required id="name" type="text" placeholder="Enter your name"> </label>
+  <label for="email" id="email-label">my email: <input required name="email" id="email" type="email" placeholder="Enter your email" >
+  </label>
+  </fieldset>
+  <fieldset>
+  <label id="number-label" for="number">my year of birth: <input id="number" type="number" name="number" min="1888" max="2023" placeholder="Enter your date of birth">
+</label>
+<label for="dropdown">what do I love most about myself?
+<select id="dropdown" name="dropdown">
+  <option value="0">All of me</option>
+  <option value="1">Hair</option>
+  <option value="2">Body shape</option>
+  <option value="3">Personality</option>
+  </select></label>
+  </fieldset>
+  <fieldset><p>&#x1F33C; my favorite season:</p>
+    <label for="spring"><input name="season" id="spring" type="radio" value="spring" class="inline">spring
+            </label>
+             <label for="automn"><input name="season" id="automn" type="radio" value="automn"class="inline">automn
+            </label>
+            <label for="winter"><input name="season" id="winter" type="radio"value="winter"class="inline">winter
+            </label>
+            <label for="summer"><input name="season" id="summer" type="radio" value="summer"class="inline">summer
+            </label>
+<p>&#x1F33C; I absolutely love:</p>
+     
+<label for="me"><input name="me" id="me" type="checkbox"class="inline" value="me">me
+            </label>
+             <label for="myself"><input name="myself" id="myself" type="checkbox" class="inline"value="myself">myself
+            </label>
+             <label for="mysoul"><input name="mysoul" id="mysoul" type="checkbox" class="inline"value="mysoul">my soul
+            </label>
+          
+    </fieldset>
+    <fieldset>
+      <legend>&#x1F33C; the essay of love:</legend> 10 things I love about myself:
+      <label for="essay"> 
+        <textarea placeholder="I love my everything..."  name="essay" id="essay" cols="30" rows="9">
+     </textarea>
+  
+    
+
+      </label>
+      </fieldset>
+      <input type="submit" name="submit" value="Submit" id="submit">
+</form>
+</div>
+  </body>
+  </html>
